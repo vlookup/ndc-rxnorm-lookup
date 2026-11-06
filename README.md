@@ -13,7 +13,6 @@ Create a practical NDC → RxNorm lookup table that:
 ## What’s in the repo
 
 - `NDC Crosswalk RxNorm.ipynb` — Notebook that builds and documents the crosswalk
-- Cleaned and joined output files (CSV / Parquet / Excel) showing the final NDC–RxNorm mapping
 
 ## Key notes
 
