@@ -1,1 +1,4 @@
 RxNorm_full_prescribe_*.zip
+config.py
+*.parquet
+*.csv
