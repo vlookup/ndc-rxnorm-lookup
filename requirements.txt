@@ -1,0 +1,14 @@
+# Core data handling
+pandas>=2.0.0          # DataFrames, Excel export, joins, and transformations
+
+# HTTP downloads
+requests>=2.31.0       # Download FDA NDC zip and RxNorm prescribe zip
+
+# HTML parsing
+beautifulsoup4>=4.12.0 # Parse the RxNorm files page to find the latest zip link
+
+# Excel output
+openpyxl>=3.1.0        # Used by pandas ExcelWriter for the final export with column widths
+
+# Optional but recommended
+lxml>=4.9.0            # Faster HTML parser for BeautifulSoup (recommended)
