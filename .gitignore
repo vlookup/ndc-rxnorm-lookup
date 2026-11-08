@@ -1,5 +1,30 @@
+# RxNorm source archives
 RxNorm_full_prescribe_*.zip
-config.py
-*.parquet
+
+# Data files
+*.xlsx
 *.csv
+*.txt
+*.json
+*.zip
+*.parquet
+
+# Folders
+data/
+raw/
+output/
+exports/
+
+# Python
 __pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Config
+config.py
+
+# OS
+.DS_Store
+Thumbs.db
